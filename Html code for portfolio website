@@ -1,0 +1,229 @@
+# codsoft_1
+HTML CODE FOR PORTFOLIO WEBSITE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylep.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="navbar">
+            <div class="navdiv">
+                <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#skill-img"> Skills</a></li>
+                        <li><a href="#projects"> Projects</a></li>
+                        <li><a href="#heading3"> Resume</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                    </ul>
+             </div>
+        </div>
+        </nav>
+        <div class="home-img">
+            <img src="images/photo1.jpg">
+        </div>
+        <div class="header-txt">
+            <h1>Hello, I'm <span> SALONI</span></h1>
+            <p>Creating content to display my skill, passion, experience.</p>
+            <p>Web Developer</p>
+        </div>
+    </header>
+  <!--------about-------->  
+  <section id="about">
+    <div class="about-img">
+        <img src="images/photo1.jpg">
+    </div>
+    <div class="about-txt">
+        <h2>About <span>Me</span></h2>
+        <h4>Web Developer</h4>
+        <p>Self-motivated, Adaptable, and Reliable front end web developer with 2 years' experience driving website and mobile-first application development projects. Detailed-oriented and efficient WordPress developer skilled in building custom themes and templates, integrating plugins to support digital marketing efforts, and completing user experience(UX) copywriting tasks. Supportive team player with strong data analysis skills.</p>
+        <a href="#" class="btn-box"> More About Me</a>
+    </div>
+  </section>
+  <!---------skills---------->
+  <img id="skill-img" src="images/Skill.jpg">
+  <h1 class="sub-title">My <span>Skills</span></h1>
+  <section id="skill">
+    <div class="container1" id="Skills">
+    
+        <h1 class="heading1">Technical Skills</h1>
+        
+        <div class="Technical-bars">
+            <div class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Python</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading2">Professional Skills</h1>
+        <div class="Professional-bars">
+            <div class="bar1">
+                <div class="info">
+                    <span>Creativity</span>
+                </div>                
+            </div>
+            <div class="bar1">
+                <div class="info">
+                    <span>Communication</span>
+                </div>
+            </div>
+            <div class="bar1">
+                <div class="info">
+                    <span>Problem Solving</span>
+                </div>
+            </div>
+            <div class="bar1">
+                <div class="info">
+                    <span>Team Work</span>
+                </div>
+            </div>
+            <div class="bar1">
+                <div class="info">
+                    <span>Time Mnagement</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn-box"> More About Me</a>
+  </section>
+<!------------projects-------------->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <img src="images/landingpage.jpg" alt="Landing Page">
+        <div class="project-info">
+            <h3>Landing Page </h3>
+            <p>This is a brief description of Project 1. It covers the main features and technologies used.</p>
+            <a href="https://github.com/1SALONI5/Codsoft_2_lp" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/calc.jpg" alt="Calculator">
+        <div class="project-info">
+            <h3>Calculator</h3>
+            <p>This is a brief description of Project 2. It covers the main features and technologies used.</p>
+            <a href="https://github.com/1SALONI5/codsoft_3" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+    </section>
+    <!-------------resume--------------->
+    <h2 id="heading3">Resume</h2>
+    <div class="resume">
+        <header class="header">
+            <h1>Saloni Prajapati</h1>
+            <p>Web Developer</p>
+            <p>Email: salonice15@gmail.com | Phone: 8980393631</p>
+            <p>Website: www.salonice15.dev | LinkedIn: linkedin.com/in/Saloni Prajapati</p>
+        </header>
+        
+        <section id="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Web Developer Intern</h3>
+                <p>CodSoft, Jun 2024 - July 2024</p>
+                <ul>
+                    <li>Assisted in the development of potfolio websites using HTML and CSS.</li>
+                    <li>Assisted in the development of Landing Page using HTML and CSS.</li>
+                    <li>Assisted in the development of Calculator using HTML, CSS, and JavaScript.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachlelor of Engineering in Computer Engineering</h3>
+                <p>Gujarat Power Engineering and Research Institute, 2021 - 2025</p>
+            </div>
+        </section>
+        </div>
+        <!---------contact--------->
+        <section id="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>I would love to hear from you!</p>
+            </div>
+            
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <span>Full Name</span>
+                            <input type="text" name="" required="required">                           
+                        </div>
+                        <div class="inputBox">
+                            <span>Email</span>
+                            <input type="text" name="" required="required">
+                        </div>
+                        <div class="inputBox">
+                            <span>Type Your Message...</span>
+                            <textarea required="required"></textarea>                          
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <div class="container2">
+            <div class="footer-content">
+                <h3>Contact Me</h3>
+                <p>Email:salonice15@gmail.com</p>
+                <p>phone:8980393631</p>
+                <p>Mehsana,Gujarat,India</p>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Me</h3>
+                <ul class="social-icons">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p> &copy; All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
